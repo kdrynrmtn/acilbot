@@ -24,3 +24,10 @@
 - GitHub reposu açtım
 - İlk temiz commit'i attım ve push ettim.
 
+## Day 5 - 07.07.2026
+- Embedding kavramını öğrendim (metin → sayı dizisi)
+- sentence-transformers kütüphanesini kurdum
+- cosine similarity ile vektör benzerliği hesapladım
+- İngilizce model (all-MiniLM-L6-v2) Türkçe'de iyi çalışmadığını gördüm
+- Türkçe için multilingual model (intfloat/multilingual-e5-large) deneme yanılma ile buldum
+- "Yanık tedavisi" sorusuna doğru cevabı %87 benzerlikle bulan demo yazdım

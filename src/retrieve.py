@@ -26,6 +26,7 @@ def ilgili_dokumanlari_bul(sorgu, top_k=2):
     
     benzerlikler.sort(reverse=True)
     
+
     return benzerlikler[:top_k]
 
 if __name__ == "__main__":

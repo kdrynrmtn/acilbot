@@ -31,3 +31,10 @@
 - İngilizce model (all-MiniLM-L6-v2) Türkçe'de iyi çalışmadığını gördüm
 - Türkçe için multilingual model (intfloat/multilingual-e5-large) deneme yanılma ile buldum
 - "Yanık tedavisi" sorusuna doğru cevabı %87 benzerlikle bulan demo yazdım
+
+## Day 6 - 08.07.2026
+- SQLite nedir öğrendim (serverless, tek dosya veritabanı)
+- database.py yazdım (bağlantı, tablo oluşturma, doküman ekleme fonksiyonları)
+- 5 acil durum dokümanını embedding'leriyle birlikte veritabanına kaydettim
+- data/acilbot.db dosyası oluştu
+- Kullanıcı sorgularını anlamsal vektörlere dönüştüren ve   acilbot.db içerisindeki verilerle karşılaştırarak en alakalı dokümanları getiren (Retrieval) arama motoru mantığı sisteme entegre edildi

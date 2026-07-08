@@ -1,4 +1,3 @@
-# AcilBot - Yardımcı fonksiyonlar
 
 def format_context(chunks):
     if not chunks:

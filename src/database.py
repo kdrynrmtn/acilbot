@@ -60,7 +60,6 @@ def tum_dokumanlari_getir():
     return dokumanlar
 
 def dokuman_sayisi():
-    """Kaç doküman var?"""
     baglanti = baglanti_al()
     imlec = baglanti.cursor()
     imlec.execute("SELECT COUNT(*) FROM documents")

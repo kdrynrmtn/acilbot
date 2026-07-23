@@ -48,3 +48,7 @@
   - Deprem.txt, Donma_Hipotermi.txt, Bocek_isirmasi.txt
 - Verileri kod içine yazmak yerine .txt dosyalarından okuyan daha temiz bir mimari kurdum
 - index_data.py yeniden yazıldı (docs/ klasörünü tarayıp SQLite'a kaydediyor)
+
+## Day 8
+- Tüm .txt dosyalarını güvenilir kaynaklardan (Kızılay, sağlık siteleri vb.) referans alarak doldurdum
+- 13 gerçek acil durum dokümanı başarıyla veritabanına kaydedildi
